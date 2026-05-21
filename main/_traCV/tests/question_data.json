@@ -1,0 +1,55 @@
+{
+    "gt": {
+        "is_correct": true,
+        "ocr_results": [
+            "4"
+        ]
+    },
+    "lesson_info": {
+        "class_id": 10851675,
+        "class_name": "【面授】小小科学家3阶C3",
+        "lesson_id": 1128717483,
+        "lesson_name": "无法追赶的脚步",
+        "teacher_name": "李晨",
+        "teacher_user_id": 9335758
+    },
+    "meta_info": {
+        "data_source_type": "all-sample"
+    },
+    "question_info": {
+        "img_url": [
+            "https://aixuexi-jzx-file.oss-cn-beijing.aliyuncs.com/jzxfile/1766228545504_0_8749884.1766228545496.jpg"
+        ],
+        "question_id": null,
+        "topic_info": {
+            "answers": [
+                {
+                    "fragment_id": "",
+                    "html": "<div class=\"tiku_piece axx_piece\" style=\"position:relative;overflow:hidden;word-break:break-word;text-underline-position:under;\"><p>4</p></div>",
+                    "text": "4"
+                }
+            ],
+            "jiexis": [
+                {
+                    "fragment_id": "jieXis20240416/8d163588c7000b18dfe873a5080a996e/jieXis",
+                    "html": "<div class=\"axx_piece\"><p style=\"text-align:justify;margin-left:0em;\"><span lang=\"zh-CN\">年龄差永不变，34-10=24（岁）</span></p><p style=\"text-align:justify;margin-left:0em;\"><span lang=\"zh-CN\"><img class=\"axx_anchorimage\" src=\"https://tiku-static.aixuexi.com//jieXis20240416/8d163588c7000b18dfe873a5080a996e/jieXis/jieXis.files/image1.png?i=638488590012748772\" style=\"width: 389.5pt; height: 154.0274pt\" alt=\"aixuexiimg1,\" /></span></p><p style=\"text-align:justify;margin-left:0em;\"><span xml:space=\"preserve\"> </span></p><p style=\"text-align:justify;margin-left:0em;\"><span xml:space=\"preserve\"> </span></p><p style=\"text-align:justify;margin-left:0em;\"><span xml:space=\"preserve\"> </span></p><p style=\"text-align:left;margin-left:0em;\"><span><br /></span><span xml:space=\"preserve\"> </span></p></div>",
+                    "text": "年龄差永不变，34-10=24（岁）\r\n\r\n\r\n\r\n\r\n\r\n"
+                }
+            ],
+            "options": null,
+            "stem": {
+                "fragment_id": "",
+                "html": "<div class=\"tiku_piece axx_piece\" style=\"position:relative;overflow:hidden;word-break:break-word;text-underline-position:under;\"><p style=\"margin-left:0em;text-align:justify;\">今年小高10岁，他父亲34岁，那么<span class=\"own-disorder axx_fillin\" style=\"border-bottom:1px solid #000;display:inline-block;line-height:1.2;text-align:center;vertical-align:text-bottom;width:4em;\" width=\"4em\" type=\"normal\">&nbsp;</span>年前，父亲年龄是小高的5倍．</p></div>",
+                "text": "今年小高10岁，他父亲34岁，那么&nbsp;年前，父亲年龄是小高的5倍．"
+            },
+            "subject_product_id": 202,
+            "topic_id": 6955249,
+            "topic_type": 2
+        }
+    },
+    "user_info": {
+        "phone": null,
+        "student_name": "张宇轩",
+        "student_user_id": 8749884
+    }
+}

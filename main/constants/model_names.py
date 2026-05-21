@@ -1,0 +1,8 @@
+# QWEN3_VL_PLUS 系列
+QWEN3_VL_PLUS_2025_09_23 = "qwen3-vl-plus-2025-09-23"
+QWEN3_VL_PLUS_2025_12_19 = "qwen3-vl-plus-2025-12-19"
+#QWEN3_VL_PLUS = QWEN3_VL_PLUS_2025_09_23
+QWEN3_VL_PLUS = QWEN3_VL_PLUS_2025_12_19
+
+# GEMINI_3_FLASH = "gemini-3-flash-preview"
+GEMINI_3_FLASH = "gemini-3.0-flash-preview"

@@ -1,0 +1,13 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "workbench.editor.wrapTabs": true,
+    "python.defaultInterpreterPath": "/data/anaconda3/envs/py11tt2/bin/python",
+    "python.terminal.activateEnvironment": true,
+}

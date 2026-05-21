@@ -1,0 +1,40 @@
+# 推理脚本配置文件
+
+# 客观题判题接口配置（用于 /judge/objective 接口）
+objective_judge:
+  base_url: "http://127.0.0.1:5300"  # 客观题判题接口服务地址
+  endpoint: "/api/v1/judge/objective"  # 客观题判题接口端点（可选，默认为 /judge/objective）
+  timeout: 60  # 接口超时时间（秒）
+
+subjective_judge:
+  base_url: "http://127.0.0.1:5300"
+  # base_url: "https://cv.dev.aixuexi.com/llm_recog"  # 主观题判题接口服务地址
+  endpoint: "/api/v1/judge/streaming/subjective"  # 主观题判题接口端点（可选，默认为 /judge/streaming/subjective）
+  timeout: 60  # 接口超时时间（秒）
+
+# 判题接口配置
+judge:
+  base_url: "https://jzx.aixuexi.com/ai"  # 判题接口服务地址（与 blanks_recog 可能不同）
+  endpoint: "/api/cms/judge"  # 判题接口端点
+  salt: "llm-router"  # 请求头中的盐值
+  timeout: 60  # 判题接口超时时间（秒）
+
+# 输入输出配置
+data:
+  input_file: "objective-wide-table-sample-20260115.jsonl"  # 相对于工作区根目录
+  output_file: "exp_name/infer_results.jsonl"  # 相对于工作区根目录
+  batch_size: 1  # 每次处理的样本数（当前为1，可扩展为批量处理）
+
+# 日志配置
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  log_file: "infer.log"  # 相对于工作区根目录
+
+# 其他配置
+settings:
+  max_retries: 3  # API 请求失败时的最大重试次数
+  retry_delay: 1  # 重试延迟（秒）
+  save_interval: 10  # 每处理多少个样本保存一次结果（防止数据丢失）
+  test_count: 1 # 测试模式：只处理前 N 个样例，0 表示处理所有样例
+  retry_failed: false # 重跑失败模式：如果为 true，会从输出文件中读取已有结果，跳过成功的 case，只重新处理失败的 case
+
